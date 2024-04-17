@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    scroll-behavior: smooth;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    box-shadow: 0 0 20px rgb(74, 73, 73);
+}
+
+#sec1 img{
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.nav .right{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.right ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+}
+
+li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all .5s;
+}
+
+.left p{
+    font-size: 35px;
+    color: rgb(73, 72, 72);
+}
+
+.left p span{
+    color: #fc8301;
+    font-weight: 700;
+}
+
+.content p{
+    color: rgb(122, 122, 122);
+}
+
+li a:hover{
+    color: rgb(237, 134, 32);
+}
+
+.main {
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .content{
+    width: 50%;
+    text-align: center;
+}
+
+.main .content p{
+    color: black;
+    font-size: 25px;
+}
+
+.main .sec1{
+    width: 100%;
+}
+
+.project{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(126, 125, 125);
+}
+
+/* .project .pro {
+    position: relative;
+    height: 500px;
+    width: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color:#97979396;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgb(56, 55, 55);
+
+} */
+
+.project iframe{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(56, 55, 55);
+}
+
+.skill iframe{
+    height: 100%;
+    width: inherit;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(56, 55, 55);
+}
+/* 
+.project .pro h2{
+    color: black;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.project .pro button{
+    border-radius: 10px;
+    padding: 5px 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 71, 71);
+    margin-bottom: 15px;
+    transition: all .5s;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.project .pro button:hover{
+    font-size: 16px;
+    font-weight: 600;
+    background-color:transparent;
+    color: black;
+}
+
+.skill{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(126, 125, 125);
+    margin-bottom: 20px;
+}
+
+.skill .skil {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(126, 125, 125);
+
+}
+
+b{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.skill .skil h2{
+    color: black;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.skill .skil button{
+    border-radius: 10px;
+    padding: 5px 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 71, 71);
+    margin-bottom: 15px;
+    transition: all .5s;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.skill .skil button:hover{
+    font-size: 16px;
+    font-weight: 600;
+    background-color:transparent;
+    color: black;
+} */
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    /* margin-top: -65px; */
+    /* border: 1px solid black; */
+}
+
+.content{
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+}
+
+
+section{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.navProject{
+    height: 100%;
+    width: auto;
+    font-size: 20px;
+}
+
+
+.navProject:hover .option{
+    display: flex;
+    height: 8rem;
+    transition: all .5s;
+}
+
+.navProject .option{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    box-shadow: 0 0 10px #000;
+    background-color: #fff;
+}
+.option a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 3.8rem;
+    transition: .1s all ease-in-out;
+}
+.option a:hover{
+    background-color: #dad9d998;
+    /* color:#fff; */
+}
